@@ -97,6 +97,7 @@ class CalculatorApp(ft.Container):
             ]
         )
 
+
     def button_clicked(self, e):
         data = e.control.data
         print(f"Button clicked with data = {data}")
